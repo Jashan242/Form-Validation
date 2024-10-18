@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    padding: 30px;
+    /* width: 26%; */
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cee5f3;
+    width: 430px;
+    border-radius: 15px;
+}
+
+form{
+    width: 400px;
+    background-color: white;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 20px 10px 20px;
+    font-size: 20px;
+    box-shadow: 0 5px 15px grey;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    padding-left: 5px;
+    width: 380px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid rgb(149, 147, 147);
+    border-radius: 6px;
+}
+
+#password-btn{
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    font-weight: 600;
+    background-color: rgb(167, 244, 218);
+    border-radius: 100px;
+}
+
+#password-btn:hover{
+    border: 2px solid black;
+}
+
+.signUp{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.signUp:hover{
+    cursor: pointer;
+    background-color: rgb(159, 159, 241);
+}
+
+p{
+    margin-bottom: 0;
+    width: 380px;
+    margin-top: 0;
+    padding-bottom: 15px;
+    font-size: 16px;
+    color: red; 
+}
+
+@media(max-width:520px){
+    #main{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 20px 10px;
+        width: 380px;
+        border-radius: 15px;
+    }
+    
+    form{
+        width: 310px;
+    }
+
+    input{
+        width: 300px;
+    }
+    p{
+        font-size: 14px;
+        width: 300px;
+    }
+}
+
+@media(max-width:220px){
+    #main{
+        margin-left: 20px;
+        padding: 20px 10px;
+        width: 380px;
+        border-radius: 15px;
+    }
+    
+    form{
+        width: 310px;
+        font-size: 18px;
+    }
+
+    input{
+        width: 300px;
+        font-size: 14px;
+        height: 28px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+}

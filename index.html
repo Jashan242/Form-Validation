@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-10</title>
+    <link rel="stylesheet", href="style.css">
+</head>
+<body>
+    <div id="main">
+        <form id="signUp-form">
+            <h1>Sign Up</h1>
+            <div id="username-container">
+                <label for="username">Username</label><br>
+                <input id="username-input" type="text" placeholder="Choose a username">
+                <p class="user-error error"></p>
+            </div>
+            <div id="email-container">
+                <label for="email">Email</label><br>
+                <input id="email-input" type="text" placeholder="Enter your email">
+                <p class="email-error error"></p>
+            </div>
+            <div id="password-container">
+                <label for="password">Password</label><br>
+                <input id="password-input" type="password" placeholder="Enter a strong password">
+                <p class="pwd-error error"></p>
+                <button id="password-btn">Show password</button>
+            </div>
+            <div id="confirmPassword-container">
+                <label for="confirm-password">Confirm Password</label><br>
+                <input id="confirmPassword-input"  type="password" placeholder="Reenter your password">
+                <p class="cPwd-error error"></p>
+            </div>
+            <button class="signUp" type="submit" onclick="toggle()">SIGN UP</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
